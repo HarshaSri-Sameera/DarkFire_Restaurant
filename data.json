@@ -1,0 +1,111 @@
+[
+    {
+        "name" : "French Fries",
+        "price" : "250.00"
+    },
+    {
+        "name" : "French Fries with Cheese",
+        "price" : "300.00"
+    },
+    {
+        "name" : "Vegetables and Chilly Cheese",
+        "price" : "150.00"
+    }
+    ,
+    {
+        "name" : "Veg Pulao",
+        "price" : "200.00"
+    },
+    {
+        "name" : "Chicken Dum Biryani",
+        "price" : "250.00"
+    },
+    {
+        "name" : "Veg Shawarama",
+        "price" : "130.00"
+    },
+    {
+        "name" : "Chicken Shawarama",
+        "price" : "160.00"
+    },
+    {
+        "name" : "Paneer Shawarama",
+        "price" : "150.00"
+    },
+    {
+        "name" : "Mushroom Shawarama",
+        "price" : "150.00"
+    },
+    {
+        "name" : "Pizza with Tomato",
+        "price" : "140.00"
+    },
+    {
+        "name" : "Pizza with Pepperoni and Pepsi",
+        "price" : "180.00"
+    },
+    {
+        "name" : "Pizza with Cheese",
+        "price" : "160.00"
+    },
+    {
+        "name" : "pizza with Paneer",
+        "price" : "160.00"
+    },
+    {
+        "name" : "chocolate Lava Cake",
+        "price" : "100.00"
+    },
+    {
+        "name" : "cheesecake and Hot Chocolate",
+        "price" : "200.00"
+    },
+    {
+        "name" : "ButterMilk",
+        "price" : "60.00"
+    },
+    {
+        "name" : "Mango Lassi",
+        "price" : "100.00"
+    },
+    {
+        "name" : "Strawberry Lassi",
+        "price" : "110.00"
+    },
+    {
+        "name" : "Banana Smoothie",
+        "price" : "85.00"
+    },
+    {
+        "name" : "Veg Frankie",
+        "price" : "70.00"
+    },
+    {
+        "name" : "Chicken Tikka Frankie",
+        "price" : "130.00"
+    },
+    {
+        "name" : "Paneer Tikka Frankie",
+        "price" : "120.00"
+    },
+    {
+        "name" : "Egg Noodles",
+        "price" : "90.00"
+    },
+    {
+        "name" : "Chicken Noodles",
+        "price" : "130.00"
+    },
+    {
+        "name" : "Veg Noodles",
+        "price" : "110.00"
+    },
+    {
+        "name" : "Butter Naan two pieces",
+        "price" : "120.00"
+    },
+    {
+        "name" : "Cashew Tomato Curry",
+        "price" : "150.00"
+    }
+]

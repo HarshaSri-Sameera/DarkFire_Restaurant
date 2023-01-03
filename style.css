@@ -1,0 +1,50 @@
+.table {
+    margin-top: 5px;
+    text-align: center;
+}
+
+.menu {
+    margin-top: 5px;
+    text-align: center;
+}
+
+.search {
+    margin-left: 5px;
+    margin-top: 8px;
+    width: 250px;
+    border: 1px solid #ccc;
+    box-shadow: 0px 5px 5px gray;
+    padding: 5px 20px 5px;
+}
+
+.menu_search {
+    margin-left: 5px;
+    margin-top: 15px;
+    width: 550px;
+    border: 1px solid #ccc;
+    box-shadow: 0px 5px 5px gray;
+    padding: 5px 20px 5px;
+}
+
+input {
+    font-size: 1rem;
+}
+
+.card {
+    margin-top: 40px;
+    background-color: white;
+}
+
+.card > .header {
+    padding-left: .50rem;
+}
+
+.card > .body {
+    font-size: .8rem;
+    padding-left: .50rem;
+    margin-bottom: .25rem;
+}
+
+.hide {
+    display: none;
+}
