@@ -38,6 +38,11 @@ input {
     background-color: white;
     padding: 10px 10px 10px;
 }
+
+.TcardChange {
+    background-color: orange;
+}
+
 .card {
     margin-top: 40px;
     background-color: white;
@@ -55,4 +60,91 @@ input {
 
 .hide {
     display: none;
+}
+
+/* Bill popup */
+.popup {
+    width: 500px;
+    max-width: 80%;
+    border-radius: 6px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    transition: 200ms ease-in-out;
+    background-color: #fff;
+    border: 2px solid #000;
+    z-index: 1;
+    /* popup should have scroll if items are more */
+    /* overflow-y: scroll; */
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+}
+
+.popup.active {
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.popup-header {
+    margin-left: -10px;
+    margin-right: -10px;
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #000;
+    background-color: #233799;
+    color: #fff;
+}
+
+.close-button {
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    background: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.popup-body {
+    padding: 10px 15px;
+    height: 200px;
+    overflow-y: scroll;
+}
+
+#overlay {
+    position: fixed;
+    opacity: 0;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    transition: 200ms ease-in-out;
+    background-color: rgba(0, 0, 0, .5);
+    pointer-events: none; 
+}
+
+#overlay.active {
+    opacity: 1;
+    pointer-events: all;
+}
+
+/* table css */
+table {
+    text-align: center;
+}
+
+table td {
+    text-align: left;
+}
+
+table, td, th {
+    padding: 6px;
+}
+
+.popup-footer {
+    display: flex;
+    border-top: 1px solid #000;
+    padding: 10px 15px;
+    gap: 5rem;
 }
